@@ -8,5 +8,9 @@ function add(){
         let li = document.createElement("li");
         li.innerHTML=inputBox.value;
         listCont.appendChild(li); 
+        let span = document.craeteElement("span");
+        span.innerHtml = "\u00d7;
+            li.appendChild(span);
     }
+    inputBox.value="";
 }
